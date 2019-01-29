@@ -64,14 +64,14 @@
 <script>
 import Vue from 'vue';
 import ElCascaderMenu from './menu';
-import ElInput from 'element-ui/packages/input';
-import Popper from 'element-ui/src/utils/vue-popper';
-import Clickoutside from 'element-ui/src/utils/clickoutside';
-import emitter from 'element-ui/src/mixins/emitter';
-import Locale from 'element-ui/src/mixins/locale';
-import { t } from 'element-ui/src/locale';
+import ElInput from 'wselement-ui/packages/input';
+import Popper from 'wselement-ui/src/utils/vue-popper';
+import Clickoutside from 'wselement-ui/src/utils/clickoutside';
+import emitter from 'wselement-ui/src/mixins/emitter';
+import Locale from 'wselement-ui/src/mixins/locale';
+import { t } from 'wselement-ui/src/locale';
 import debounce from 'throttle-debounce/debounce';
-import { generateId, escapeRegexpString, isIE, isEdge } from 'element-ui/src/utils/util';
+import { generateId, escapeRegexpString, isIE, isEdge } from 'wselement-ui/src/utils/util';
 
 const popperMixin = {
   props: {

@@ -102,8 +102,8 @@
 
 <script type="text/babel">
   import { getRangeHours, getRangeMinutes, modifyTime } from '../util';
-  import ElScrollbar from 'element-ui/packages/scrollbar';
-  import RepeatClick from 'element-ui/src/directives/repeat-click';
+  import ElScrollbar from 'wselement-ui/packages/scrollbar';
+  import RepeatClick from 'wselement-ui/src/directives/repeat-click';
 
   export default {
     components: { ElScrollbar },

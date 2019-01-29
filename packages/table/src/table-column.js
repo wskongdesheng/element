@@ -1,7 +1,7 @@
-import ElCheckbox from 'element-ui/packages/checkbox';
-import ElTag from 'element-ui/packages/tag';
-import objectAssign from 'element-ui/src/utils/merge';
-import { getPropByPath } from 'element-ui/src/utils/util';
+import ElCheckbox from 'wselement-ui/packages/checkbox';
+import ElTag from 'wselement-ui/packages/tag';
+import objectAssign from 'wselement-ui/src/utils/merge';
+import { getPropByPath } from 'wselement-ui/src/utils/util';
 
 let columnIdSeed = 1;
 
