@@ -328,9 +328,10 @@
       position: absolute;
       left: 0px;
       top: 0px;
-      width: 60px;
+      width: 42px;
       height: 24px;
       color: #fff;
+      border-radius: 4px;
       font-size: 12px;
       line-height: 24px;
       background: #F56C6C;
@@ -338,8 +339,6 @@
       box-shadow: 0 0 1pc 1px rgba(0,0,0,0.2);
       i {
         font-size: 12px;
-        margin-top: 11px;
-        transform: rotate(-45deg);
       }
     }
 

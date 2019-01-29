@@ -26,9 +26,9 @@
       <a class="el-upload-list__item-name" @click="handleClick(file)">
         <i class="el-icon-document"></i>{{file.name}}
       </a>
-      <label v-if="file.type === 'Video'" class="el-upload-list__item-type-label">
+      <a target="_blank" :href="file.url" v-if="file.type === 'Video'" class="el-upload-list__item-type-label">
         <i class="el-icon-caret-right"></i><span>视频</span>
-      </label>
+      </a>
       <label class="el-upload-list__item-status-label">
         <i :class="{
           'el-icon-upload-success': true,
