@@ -327,6 +327,7 @@
     .el-upload-list__item-type-label{
       position: absolute;
       left: 0px;
+      z-index: 999;
       top: 0px;
       width: 42px;
       height: 24px;
