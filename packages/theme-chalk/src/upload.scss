@@ -174,7 +174,7 @@
       opacity: 1;
       color: $--color-primary;
     }
-    
+
     &:hover {
       background-color: $--background-color-base;
 
@@ -188,7 +188,7 @@
     }
 
     @include when(success) {
-      .el-upload-list__item-status-label {
+      .el-upload-list__item-status-label, .el-upload-list__item-type-label {
         display: block;
       }
 
@@ -318,6 +318,24 @@
       transform: rotate(45deg);
       box-shadow: 0 0 1pc 1px rgba(0,0,0,0.2);
 
+      i {
+        font-size: 12px;
+        margin-top: 11px;
+        transform: rotate(-45deg);
+      }
+    }
+    .el-upload-list__item-type-label{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 60px;
+      height: 24px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 24px;
+      background: #F56C6C;
+      text-align: center;
+      box-shadow: 0 0 1pc 1px rgba(0,0,0,0.2);
       i {
         font-size: 12px;
         margin-top: 11px;
