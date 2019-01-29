@@ -18,10 +18,6 @@ then
   npm version $VERSION --message "[release] $VERSION"
 
 
-  if [[ $VERSION =~ "beta" ]]
-  then
-    npm publish --tag beta
-  else
-    npm publish
-  fi
+  npm publish
+
 fi
